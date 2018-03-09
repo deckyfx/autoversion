@@ -12,7 +12,8 @@ buildscript {
 apply plugin: 'groovy'
 apply plugin: 'java'
 apply plugin: 'maven'
-apply plugin: "com.gradle.plugin-publish"
+apply plugin: 'com.gradle.plugin-publish'
+apply plugin: 'java-gradle-plugin'
 // Apply other plugins here, e.g. java plugin for a plugin written in java or
 // the groovy plugin for a plugin written in groovy
 
@@ -44,9 +45,9 @@ pluginBundle {
     plugins {
         gradletestPlugin {
             id = 'com.github.deckyfx.autoversion'
-            displayName = 'Plugin for compatibility testing of Gradle plugins'
-            description = 'A plugin that helps you test your plugin against a variety of Gradle versions'
-            tags = ['testing','integrationTesting','compatibility']
+            displayName = 'Automatic semantic version bump for Android'
+            description = 'Automatically add and bump android semantic version in AndroidManifest and gradle.properties'
+            tags = ['android', 'version']
             version = version
         }
     }
