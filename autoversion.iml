@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="autoversion" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="com.github.deckyfx" external.system.module.version="1.0.3" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="autoversion" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="com.github.deckyfx" external.system.module.version="1.0.4" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
@@ -27,14 +27,14 @@
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="JDK" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: gradle-api-4.5" level="project" />
-    <orderEntry type="library" name="Gradle: groovy-all-2.4.12" level="project" />
-    <orderEntry type="library" name="Gradle: gradle-installation-beacon-4.5" level="project" />
+    <orderEntry type="library" name="Gradle: gradle-api-5.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: groovy-all-1.0-2.5.4" level="project" />
+    <orderEntry type="library" name="Gradle: gradle-installation-beacon-5.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: gradle-test-kit-4.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: gradle-test-kit-5.1.1" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -44,23 +44,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" exported="" name="gradle-api-4.5" level="project" />
-    <orderEntry type="library" exported="" name="groovy-all-2.4.12" level="project" />
-    <orderEntry type="library" exported="" name="gradle-installation-beacon-4.5" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="gradle-test-kit-4.5" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="_Users_admin_Documents_GitHub_autoversion_build_pluginUnderTestMetadata" level="project" />
-    <orderEntry type="library" exported="" name="autoversion.autoversion-1.0.3" level="project" />
-    <orderEntry type="library" exported="" name="autoversion.autoversion-1.0.3-sources" level="project" />
-    <orderEntry type="library" exported="" name="autoversion.autoversion-1.0.3-javadoc" level="project" />
-    <orderEntry type="library" exported="" name="autoversion.autoversion-1.0.3-groovydoc" level="project" />
-    <orderEntry type="library" exported="" name="autoversion.autoversion-1.0.3" level="project" />
-    <orderEntry type="library" exported="" name="autoversion.autoversion-1.0.3" level="project" />
-    <orderEntry type="library" exported="" name="autoversion.autoversion-1.0.3" level="project" />
-    <orderEntry type="library" exported="" name="autoversion.autoversion-1.0.3" level="project" />
-    <orderEntry type="library" exported="" name="autoversion.autoversion-1.0.3" level="project" />
-    <orderEntry type="library" exported="" name="autoversion.autoversion-1.0.3" level="project" />
-    <orderEntry type="library" exported="" name="autoversion.autoversion-1.0.3" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Gradle: junit-4.12" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Gradle: hamcrest-core-1.3" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Gradle: C__Android_autoversion_build_pluginUnderTestMetadata" level="project" />
   </component>
 </module>

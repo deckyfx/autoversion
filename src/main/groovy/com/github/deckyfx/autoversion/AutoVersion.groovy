@@ -54,8 +54,8 @@ class AutoVersion implements Plugin<Project> {
         Set<Task> patchBumpTask       = project.getTasksByName(getBumpPatchTaskName(), false)
         patchBumpTask.each {
             task->
-                BumpPatchTask t        = (BumpPatchTask) task;
-                t.execute()
+                BumpPatchTask t        = (BumpPatchTask) task
+                t.start()
         }
 
         /*
